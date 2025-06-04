@@ -1,8 +1,8 @@
-📱 Carrossel_Social
+##📱 Carrossel_Social
 
 Carrossel Social é um protótipo de aplicação com integração à OpenAI que gera carrosséis para redes sociais usando inteligência artificial. O sistema cria tanto o conteúdo textual (em formato Markdown) quanto imagens ilustrativas por slide, de acordo com o público-alvo e tom desejado.
 
-🚀 Funcionalidades
+#🚀 Funcionalidades
 Geração automática de carrosséis com GPT-4o.
 
 Produção de imagens para cada slide usando DALL·E 3.
@@ -11,7 +11,7 @@ Interface amigável via Streamlit.
 
 Personalização por conteúdo, público-alvo e tom de voz.
 
-🛠️ Tecnologias
+#🛠️ Tecnologias
 
 - Python
 - Streamlit
@@ -19,7 +19,7 @@ Personalização por conteúdo, público-alvo e tom de voz.
 
 LangChain
 
-▶️ Como usar
+#▶️ Como usar
 Clone este repositório:
 
 ```
@@ -41,7 +41,7 @@ Rode o app:
 streamlit run app.py
 ```
 
-🧪 Exemplo de uso
+#🧪 Exemplo de uso
 
 Preencha os campos:
 
@@ -53,7 +53,7 @@ Tom de voz: escolha entre Amigável, Profissional, Urgente ou Divertido.
 
 Clique em Gerar para receber os slides em Markdown + imagens.
 
-⚠️ Observações
+##⚠️ Observações
 
 O uso das APIs da OpenAI pode gerar custos.
 
