@@ -1,2 +1,59 @@
-# Carrosel_Social
-Protótipo de sistema com IA para criação de carrosséis para redes sociais. A ideia é expandir o suporte para posts no LinkedIn pessoal e para empresas no Facebook e Instagram, com integrações nativas, facilitando a produção de conteúdo visual e textual de forma automatizada.
+📱 Carrossel_Social
+Post-Pronto é um protótipo de aplicação com integração à OpenAI que gera carrosséis para Instagram usando inteligência artificial. O sistema cria tanto o conteúdo textual (em formato Markdown) quanto imagens ilustrativas por slide, de acordo com o público-alvo e tom desejado.
+
+🚀 Funcionalidades
+Geração automática de carrosséis com GPT-4o.
+
+Produção de imagens para cada slide usando DALL·E 3.
+
+Interface amigável via Streamlit.
+
+Personalização por conteúdo, público-alvo e tom de voz.
+
+🛠️ Tecnologias
+Python
+
+Streamlit
+
+OpenAI API (ChatGPT + DALL·E 3)
+
+LangChain
+
+▶️ Como usar
+Clone este repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/post-pronto.git
+cd post-pronto
+Instale as dependências:
+
+bash
+Copiar
+Editar
+pip install -r requirements.txt
+Adicione sua chave OpenAI:
+No código, substitua "SUA CHAVE OPENAI AQUI" pela sua chave pessoal.
+
+Rode o app:
+
+bash
+Copiar
+Editar
+streamlit run app.py
+🧪 Exemplo de uso
+Preencha os campos:
+
+Conteúdo: o tema central do post.
+
+Público-alvo: para quem o post é direcionado.
+
+Tom de voz: escolha entre Amigável, Profissional, Urgente ou Divertido.
+
+Clique em Gerar para receber os slides em Markdown + imagens.
+
+⚠️ Observações
+O uso das APIs da OpenAI pode gerar custos.
+
+Verifique os limites da sua conta para evitar erros na geração de imagens.
