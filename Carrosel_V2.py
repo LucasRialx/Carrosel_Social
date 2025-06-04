@@ -18,7 +18,7 @@ chat = ChatOpenAI(
 client = OpenAI(api_key=OPENAI_KEY)
 
 # UI do app
-st.title("Post-Pronto 🚀")
+st.title("Carrosel_Social 🚀")
 conteudo = st.text_input("Conteúdo")
 publico = st.text_input("Público-alvo")
 tom = st.selectbox("Tom de voz", ["Amigável", "Profissional", "Urgente", "Divertido"])
